@@ -105,20 +105,18 @@ export function MainPageComponent() {
 								Who We Are
 							</h3>
 							<p className="text-xl leading-relaxed ">
-								Paradigm is a student-led tech club at Mayoor School Noida,
+								Paradigm is a student-led tech club at Mayoor School Noida established under the aegis of our principal Ms.Alka Awasthi,
 								dedicated to fostering innovation, creativity and collaboration
 								in the tech community. We provide a platform for students to
 								learn, build and share their projects, and connect with
-								like-minded individuals who share a passion for technology. We
-								also serve as an official club of Hack Club.
+								like-minded individuals who share a passion for technology.
 							</p>
 							<h3 className="text-3xl font-semibold text-[#9AFF27] underline underline-offset-8 decoration-4">
 								Our History
 							</h3>
 							<p className="text-xl leading-relaxed">
 								Founded in 2011 by a group of tech enthusiasts, Paradigm has
-								been revived in 2024 by a new generation of students who are
-								passionate about technology. Over the years, we have
+								been revived in 2024 by a new generation of students under the guidance of our HOD Ms. Ranjana Bajaj. Over the years, we have
 								successfully organized over 14 editions of our premier inter
 								school event BOT hosting over 1000+ children annually and won
 								numerous awards in various competitions.
@@ -144,7 +142,7 @@ export function MainPageComponent() {
 						Our Accolades
 					</h2>
 					<div className="relative overflow-x-auto">
-						<div className="flex gap-8 pb-4 overflow-x-auto custom-scrollbar">
+						<div className="flex px-6 gap-8 pb-4 overflow-x-auto custom-scrollbar">
 							{achievements.map((achievement, index) => (
 								<div
 									// biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
